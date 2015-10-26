@@ -1,1 +1,4 @@
-# shinken-mod-retention-redis
+shinken-mod-retention-redis
+===========================
+
+Shinken module for saving retention data from schedulers to a redis server
