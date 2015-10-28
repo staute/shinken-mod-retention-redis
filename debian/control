@@ -2,8 +2,7 @@ Source: shinken-mod-retention-redis
 Section: net
 Priority: optional
 Maintainer: PLANET IC <technik@planet-ic.de>
-XSBC-Original-Maintainer: Shinken Debian packages maintainers <pkg-shinken-maint@lists.alioth.debian.org>
-Uploaders: Thibault Cohen <thibault.cohen@savoirfairelinux.com>, Mathieu Parent <sathieu@debian.org>
+Uploaders: Stefan Taute (PLANET IC GmbH) <taute@planet-ic.de>
 Build-Depends: debhelper (>= 9), python, dh-python
 Standards-Version: 3.9.6
 XS-Python-Version: >= 2.5, << 3.0
@@ -13,7 +12,7 @@ Homepage: http://shinken.io/package/retention-redis
 
 Package: shinken-mod-retention-redis
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, shinken-common, python-redis
+Depends: ${misc:Depends}, shinken-common, python-redis
 Breaks: shinken (<< 2~), shinken-common (<< 2~), shinken-core (<< 2~)
 Description: Shinken retention-redis module
  Shinken module for saving retention data from schedulers to a redis server
