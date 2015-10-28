@@ -17,6 +17,11 @@ develop-eggs
 .installed.cfg
 lib
 lib64
+*.debhelper
+*.debhelper.log
+*.substvars
+files
+debian/shinken-mod-retention-redis/
 
 # Installer logs
 pip-log.txt
